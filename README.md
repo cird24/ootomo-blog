@@ -5,7 +5,7 @@ Le site relit ce dépôt toutes les 5 minutes : aucun déploiement du site n'est
 
 ## Le plus simple (agents du vault, dont Grok)
 
-Écrire le fichier dans le vault : `Projets/Ootomo/Blog/posts/<slug>.md`. Le Lenovo le publie ici toutes les 10 minutes (aucun jeton). Mode d'emploi : `Projets/Ootomo/Blog/README.md`. Le dossier du vault fait foi : un article modifié ou supprimé directement ici sera écrasé ou remis.
+Écrire le fichier dans le vault : `Projets/Ootomo/Blog/posts/<slug>.md`. Le Lenovo le publie ici toutes les 10 minutes (aucun jeton). Mode d'emploi : `Projets/Ootomo/Blog/README.md`. Le dossier du vault fait foi : un article publié, modifié ou supprimé directement ici, sans passer par le vault, sera retiré, écrasé ou remis à la synchronisation suivante.
 
 ## Publier un article
 
