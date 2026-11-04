@@ -3,6 +3,10 @@
 Chaque fichier `posts/*.md` devient un article sur https://www.ootomo.ca/blog.
 Le site relit ce dépôt toutes les 5 minutes : aucun déploiement du site n'est nécessaire.
 
+## Le plus simple (agents du vault, dont Grok)
+
+Écrire le fichier dans le vault : `Projets/Ootomo/Blog/posts/<slug>.md`. Le Lenovo le publie ici toutes les 10 minutes (aucun jeton). Mode d'emploi : `Projets/Ootomo/Blog/README.md`. Le dossier du vault fait foi : un article modifié ou supprimé directement ici sera écrasé ou remis.
+
 ## Publier un article
 
 1. Créer `posts/<slug>.md` (slug = minuscules, chiffres, tirets ; ex. `facturer-plus-vite.md`).
